@@ -1,4 +1,4 @@
-# 📂 Cyber Kill Chain – SOC Analysis Lab
+# 📂 Cyber Kill Chain – SOC Analysis Lab & Threat Mapping Lab
 
 ## 📌 Project Description
 
@@ -12,7 +12,7 @@ The purpose of this laboratory session was to learn the structure of cyber attac
 
 The Cyber Kill Chain is a cybersecurity concept aimed at describing the process of a cyber attack from initial reconnaissance to final impact.
 
-It allows security teams to identify, detect, and prevent attacks in various stages.
+It help security teams to detect, analyse , and respond to attacks in various stages.
 
 ---
 
@@ -69,6 +69,23 @@ Example:
 
 - Delivery → SSH login attempt from the malicious IP address
 - Exploitation → successful attempt to authenticate
+
+---
+
+# 💻 Practical SOC Implementation
+
+The practical application of SOC analysis can be seen through the use of the Cyber Kill Chain.
+
+Here is how the above would be mapped into a practical situation:
+
+- Reconnaissance stage – attackers perform network scanning
+- Delivery stage – suspicious login activity or phishing emails
+- Exploitation stage – successful login or vulnerabilities exploitation
+- Installation stage – persistence is established
+- Command and control stage – communication with attacker’s network
+- Actions on objectives stage – data is accessed and network system compromised 
+
+This is how the practical structure approach improves detection, analysis, and response efficiency.
 
 ---
 
